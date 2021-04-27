@@ -12,7 +12,7 @@ import biscoito from './src/biscoito.png'
 import biscoitoAberto from './src/biscoitoAberto.png'
 
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
