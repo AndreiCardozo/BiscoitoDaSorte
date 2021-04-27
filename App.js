@@ -18,9 +18,8 @@ export default class App extends Component {
     this.state = {
       textoFrase: '',
       img: biscoito
-
-
     };
+    
     this.quebrabiscoito = this.quebrabiscoito.bind(this);
 
     this.frases = [
@@ -98,7 +97,6 @@ const styles = StyleSheet.create({
     borderColor: "#0077",
     borderRadius: 25,
     backgroundColor: "#0077",
-
   },
 
   btnView: {
@@ -114,10 +112,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
-
-
   },
-
 })
 
 export default App;
